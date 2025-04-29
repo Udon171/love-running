@@ -4,6 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Body Section */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+}
 /* Header Section */
 header {
     background-color: lightcoral;
@@ -12,6 +21,8 @@ header {
 /* Main Section */
 main {
     background-color: lightblue;
+    /* Flexbox to make the main section take up the remaining space and keep the footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer Section */
