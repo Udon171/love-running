@@ -1,0 +1,20 @@
+/* Asterix wildcard selector to overide defaut styes added by the browser */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Section */
+header {
+    background-color: lightcoral;
+}
+
+/* Main Section */
+main {
+    background-color: lightblue;
+}
+
+/* Footer Section */
+footer {
+    background-color: orange;
+}
