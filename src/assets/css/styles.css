@@ -48,6 +48,11 @@ header {
     background-color: lightcoral;
 }
 
+/* Header Section with Flexbox for layout */
+h1 {
+    font-family: oswald-font, sans-serif;
+}
+
 /* Main Section */
 main {
     background-color: lightblue;
