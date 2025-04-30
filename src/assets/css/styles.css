@@ -1,7 +1,35 @@
-/* Asterix wildcard selector to overide defaut styes added by the browser */
- * {
-    margin: 0;
-    padding: 0;
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Lato:wght@300&display=swap');
+/* HTML Element Selector to set the font family for the entire document */
+
+/* Setting the font family for the entire document */
+/*.oswald-font {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.lato-light-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}*/
+
+/* Resetting default styles for all elements */
+* {
+    padding: auto;
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -12,7 +40,9 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: lato-light, sans-serif;
 }
+
 /* Header Section */
 header {
     background-color: lightcoral;
