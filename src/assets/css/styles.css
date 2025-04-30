@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Lato:wght@300&display=swap');
 /* HTML Element Selector to set the font family for the entire document */
 
-/* Setting the font family for the entire document */
+/* Google fonts options available */
 /*.oswald-font {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -58,16 +58,12 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: oswald-font, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
 /* Header Section with Flexbox for layout */
 h1 {
-    font-family: oswald-font, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
 /* Main Section */
