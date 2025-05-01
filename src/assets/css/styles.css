@@ -113,6 +113,7 @@ main {
     background-color: lightblue;
     /* Flexbox to make the main section take up the remaining space and keep the footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer Section */
