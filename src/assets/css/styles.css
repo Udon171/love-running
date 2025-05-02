@@ -28,8 +28,8 @@
 
 /* Resetting default styles for all elements */
 * {
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: lato-light, sans-serif;
+    font-family: 'lato', sans-serif;
 }
 
 /* Header Section */
@@ -63,10 +63,10 @@ header a {
 
 /* Header Section with Flexbox for layout */
 h1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+    font-family: 'Owswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 #menu {
@@ -117,8 +117,18 @@ main {
 }
 
 /* Footer Section */
-footer {
-    background-color: orange;
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 5% ;
+    color: #3a3a3a;
 }
 
 /* Media Queries: teblets and larger (768px and up) */
