@@ -43,6 +43,13 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Owswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}    
+
 /* Header Section */
 header {
     background-color: #ffffff;
@@ -62,12 +69,8 @@ header a {
 }
 
 /* Header Section with Flexbox for layout */
-h1 {
-    font-family: 'Owswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
+
 
 #menu {
     font-size: 110%;
@@ -121,6 +124,22 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-test > h2,  #cover-test > h3 {
+    color: #ffffff;
 }
 
 /* Footer Section */
@@ -171,6 +190,12 @@ main {
     main {
         /* Push main content down to accommodate the header */
         margin-top: 79px;
+    }
+
+    /* Hero Section */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
