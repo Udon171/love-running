@@ -184,7 +184,32 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+/* Meetup Times section */
+#times {
+    background: url(../images/Peak-District---Snake-Pass.jpg) no-repeat center/cover;
+    /* Handles responsivity without the need for media quey */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screns of less than 400px wide. Each div will expand to fill the availlable space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid #fafafa;
+}
+
+#times  h3 {
+    /* Override the heading colour set in genral styles */
+    color: #fafafa;
+}
 
 /* Footer Section */
 #social-media {
